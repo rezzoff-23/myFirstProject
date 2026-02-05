@@ -1,5 +1,5 @@
 The first button and logo are ready, 
-all that's left is to practice improving them and take on more tasks. That's all for today :)
+all that's left is to practice improving them and take on more tasks.
 
         let myButton = UIButton(type: .system)
         let myLabel = UILabel()
