@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         //так же с кнопкой
         myButton.setTitleColor(.red, for: .normal)
-        myButton.frame = CGRect(x: 115, y: 120, width: 200, height: 400)
+        myButton.frame = CGRect(x: 115, y: 120, width: 100, height: 44)
         
         myButton.setTitle("TAP", for: .normal)
         
