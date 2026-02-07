@@ -8,29 +8,30 @@ class ViewController: UIViewController {
         //cоздание константы с кнопкой и лого
         let myButton = UIButton(type: .system)
         let myLabel = UILabel()
-        
-        //текст лого
+                
+                //текст лого
         myLabel.text = "Hello my friend!"
-        
-        //цвет
+                
+                //цвет
         myLabel.textColor = .blue
-        
-        //размеры и тд
-        myLabel.frame = CGRect(x: 144, y: 50, width: 150, height: 30)
-        //видимость лого
+                
+                //размеры и тд
+        myLabel.frame = CGRect(x: 50, y: 100, width: 200, height: 50)
+                //видимость лого
         view.addSubview(myLabel)
-        
-        //так же с кнопкой
+                
+                //так же с кнопкой
         myButton.setTitleColor(.red, for: .normal)
-        myButton.frame = CGRect(x: 144, y: 120, width: 100, height: 44)
-        
+        myButton.frame = CGRect(x: 115, y: 120, width: 200, height: 400)
+                
         myButton.setTitle("TAP", for: .normal)
-        
-        view.addSubview(myButton)
-        myButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
-    }
-    
+                
+    view.addSubview(myButton)
+    myButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+            }
+            
     @objc func buttonTapped() {
         print("tap tap tap")
+        
     }
-}
+        }
