@@ -35,3 +35,10 @@ class ViewController: UIViewController {
         
     }
         }
+
+
+06.02.26 Первая кнопка и логотип готовы, осталось только попрактиковаться в их улучшении и выполнении большего количества задач.
+
+    let myButton = UIButton(type: .system)
+    let myLabel = UILabel()
+Это все на сегодня :)
