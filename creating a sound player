@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         return btn
     }()
     
-    //переменная для хранения плера
+    //переменная для хранения плеера
     private var audioPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
